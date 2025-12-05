@@ -2,11 +2,8 @@
   "name": "NERD",
   "version": "1.0.0",
   "description": "blablabla",
-  "main": "index.html",
-  "scripts": {
-    "start": "serve"
-  },
-  "keywords": ["html", "css"],
+  "main": "pageAcceuil.html",
+  "keywords": ["html", "css", "js"],
   "author": "Tournevis",
   "license": "MIT",
   "devDependencies": {
