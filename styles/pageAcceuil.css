@@ -15,13 +15,12 @@ body {
   color: var(--neon-color);
 }
 
-/* MENU */
+/* HEADER */
 header {
-  background-color: #1d1d1d;
+  background: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 12px var(--neon);
   padding: 15px;
-  box-shadow: 0 0 10px #68c5ff;
-  width: 100%;
-  position: fixed;
+  backdrop-filter: blur(4px);
 }
 
 nav ul {
@@ -38,15 +37,15 @@ nav ul li {
 }
 
 nav ul li a {
-  color: var(--neon-color);
+  color: var(--neon);
   text-decoration: none;
   font-weight: bold;
-  text-shadow: 0 0 8px var(--neon-color);
+  text-shadow: 0 0 8px var(--neon);
   transition: 0.2s;
 }
 
 nav ul li a:hover {
-  text-shadow: 0 0 14px var(--neon-color), 0 0 22px var(--neon-color);
+  text-shadow: 0 0 14px var(--neon), 0 0 22px var(--neon);
   transform: scale(1.08);
 }
 
