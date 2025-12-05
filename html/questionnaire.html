@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/questionnaire.css" />
+    <title>Gacha - Questionnaire</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><img src="/img/logo.png" alt="Logo du site" /></li>
+          <li>Accueil</li>
+          <li>Invocation</li>
+          <li>Collection</li>
+          <li>Question</li>
+        </ul>
+      </nav>
+    </header>
+    <form action="#" method="get">
+      <p>Question</p>
+      <p id="question">je suis la question que l'on pose et tout là</p>
+      <div>
+        <input type="radio" name="answer" id="1" />
+        <label for="answer1" name="answer" id="label1">Réponse 1</label>
+      </div>
+      <div>
+        <input type="radio" name="answer" id="2" />
+        <label for="answer2" name="answer" id="label2">Réponse 2</label>
+      </div>
+      <div>
+        <input type="radio" name="answer" id="3" />
+        <label for="answer3" name="answer" id="label3">Réponse 3</label>
+      </div>
+      <button onclick="verify()" type="submit" name="answer" id="confirmButton">
+        Valider
+      </button>
+    </form>
+    <script src="../javascript/questionnaire.js"></script>
+  </body>
+</html>
