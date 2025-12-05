@@ -19,17 +19,18 @@
     <form action="#" method="get">
       <p>Question</p>
       <p id="question">je suis la question que l'on pose et tout là</p>
-      <div>
-        <input type="radio" name="answer" id="1" />
-        <label for="answer1" name="answer" id="label1">Réponse 1</label>
+
+      <div class="quiz-option">
+        <input type="radio" name="answer" id="1">
+        <label for="answer1" name="answer" id="label1"></label>
       </div>
-      <div>
-        <input type="radio" name="answer" id="2" />
-        <label for="answer2" name="answer" id="label2">Réponse 2</label>
+      <div class="quiz-option">
+        <input type="radio" name="answer" id="2">
+        <label for="answer2" name="answer" id="label2"></label>
       </div>
-      <div>
-        <input type="radio" name="answer" id="3" />
-        <label for="answer3" name="answer" id="label3">Réponse 3</label>
+      <div class="quiz-option">
+        <input type="radio" name="answer" id="3">
+        <label for="answer3" name="answer" id="label3"></label>
       </div>
       <button onclick="verify()" type="submit" name="answer" id="confirmButton">
         Valider
