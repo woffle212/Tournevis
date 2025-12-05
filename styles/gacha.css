@@ -1,0 +1,81 @@
+/* NEON VARIABLES */
+:root {
+  --neon: #68c5ff;
+  --bg: #0d0722;
+  --card-bg: #150d34;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--neon);
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 12px var(--neon);
+  padding: 15px;
+  backdrop-filter: blur(4px);
+}
+
+nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  gap: 30px;
+  align-items: center;
+}
+
+nav ul li {
+  text-align: center;
+}
+
+nav ul li a {
+  color: var(--neon);
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 0 0 8px var(--neon);
+  transition: 0.2s;
+}
+
+nav ul li a:hover {
+  text-shadow: 0 0 14px var(--neon), 0 0 22px var(--neon);
+  transform: scale(1.08);
+}
+
+.content {
+  padding: 120px 0;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(170, 200, 240);
+  letter-spacing: 2px;
+}
+
+p {
+  margin-bottom: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#image {
+  padding: 0;
+}
+
+img {
+  width: 40px;
+}
+
+footer {
+  background-color: #1d1d1d;
+  text-align: center;
+  padding: 20px;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+  color: var(--neon-color);
+  text-shadow: var(--neon-shadow-1), var(--neon-shadow-2);
+  box-shadow: 0 0 15px #68c5ff;
+}
