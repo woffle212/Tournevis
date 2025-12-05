@@ -75,7 +75,6 @@ form {
   border-radius: 14px;
   box-shadow: 0 0 25px var(--neon);
   text-align: center;
-  animation: fadeIn 0.6s ease-out;
   flex-shrink: 0;
 }
 
