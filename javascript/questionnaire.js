@@ -30,7 +30,7 @@ async function readFile() {
     .then((data) => {
       const lines = data.replace(/\r/g, "").split("\n");
       fakeList.push(...lines);
-      flengthFake = fakeList.length;
+      lengthFake = fakeList.length;
     })
     .catch((err) => console.error("Erreur fetch:", err));
 }
@@ -92,7 +92,7 @@ function verify() {
   } else {
     alert("Faux");
   }
-  location.reload(true);
+  location.reload();
 }
 
 async function startQuiz() {
